@@ -6,10 +6,13 @@ body {
   display: flex;
   justify-content: center;
   margin: 52px;
+  flex: 1 0 200px;
+
 }
 img {
   width: 100px;
   height: 100px;
+
 }
 
 .title {
@@ -35,5 +38,6 @@ img {
 
 .text{
  display: flex;
- align-items: center;
+ flex-wrap: wrap;
+ text-align: center;
 }
