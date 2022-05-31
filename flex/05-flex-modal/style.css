@@ -15,6 +15,10 @@ body {
   justify-content: center;
 }
 
+.container{
+
+}
+
 .modal {
   background: white;
   width: 480px;
@@ -31,8 +35,9 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+
 }
 
 .close-button {
