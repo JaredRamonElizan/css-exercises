@@ -7,10 +7,22 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
 .header, .footer{
  display: flex;
  justify-content: space-between;
  padding: 8px;
+}
+
+.footer{
+  display: flex;
+  align-items: flex-end;
+  background-color: #eeeeee;
 }
 
 .left-links, .right-links{
@@ -22,6 +34,7 @@ body {
 .content{
  display: flex;
  flex-direction: column;
+ justify-content: center;
  align-items: center;
  gap: 8px;
 }
