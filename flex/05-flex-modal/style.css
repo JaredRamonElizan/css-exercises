@@ -15,15 +15,16 @@ body {
   justify-content: center;
 }
 
-.container{
-
-}
-
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.header{
+ font-size: large;
+ font-weight: bold;
 }
 
 .icon {
@@ -35,9 +36,8 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-
 }
 
 .close-button {
